@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-0.HW-Kiehls’s</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./1-0.HW-Kiehls’s.css">
+    <style>
+    </style>
+</head>
+
+
+<!-- https://www.kiehls.com/ -->
+
+<body>
+
+
+    <!-- carousel箭頭若是放在container外,可否靠近圖片 -->
+    <!-- 圖片的地方下col-lg-12,col-sm-12沒有rwd反應 -->
+    <!-- 搞定後即可製作下方footer的rwd    -->
+
+    <div class="fixed-top">
+        <div class="container-fluid bg-primary" style="height: 30px;">
+            <p class="text-center text-light">
+                Enjoy 30% off sitewide*+ receive FREE gift with
+                $135+ purchase CODE: BEST.
+                Ends: TOMORROW <span><a class="text-light sales" href="#">SHOP NOW</a></span>
+            </p>
+
+        </div>
+
+
+        <div class="top">
+            <div class="container">
+                <nav class="navbar navbar-expand-xl navbar-dark bgc w-100 justify-content-between">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06"
+                    aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <a class="navbar-brand" href="#"><img style="width: 180px;" src="./img/kiehls/icon.png" alt=""></a>
+    
+                   
+    
+                    <div class="collapse navbar-collapse" id="navbarsExample06">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="text-light mr-2" href="#">GIFTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">NEW</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">SKINCARE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">SKIN CONCERNS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">SKIN TYPE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">MEN'S</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">HAIR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">INGREDIENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light mr-2" href="#">EXPERT ADVICE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="text-light" href="#">OFFERS</a>
+                            </li>
+    
+                        </ul>
+                    </div>
+    
+                    <div class="nav navbar-nav">
+                        <a href="#"><i class="fas fa-search mr-4 text-light"></i></a>
+                        <a href="#"><i class="fas fa-shopping-bag  text-light"></i></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container-fluid banner">
+        <div class="row">
+            <img style="height: 100%;"
+                src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw9bdb0b8b/images/homepage/carousel-banners/november2020/FINAL_KU_5479_112120_CYBER-WEEK_30_OFF_24-HOURS_LEFT_HP_CONTENT_HOMEPAGE_HERO_2880x1000_30off.jpg?sw=2000&q=70"
+                alt="">
+        </div>
+    </div>
+
+
+    <main>
+        <div class="container mt-5 mb-5">
+            <h3 class="w-100 text-center">CUSTOMER FAVORITES</h3>
+        </div>
+
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw5682b7a9/nextgen/skin-care/face-moisturizers/ultra-facial/ultra-facial-cream/kiehls-face-cream-ultra-facial-cream-50ml-000-3605970360757-whip.jpg?sw=930&sfrm=png&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#">Ultra Facial Cream</a>
+                                <p class="text-wrap mt-5 font-italic h6">Our best face cream uniquely formulated for all
+                                    skin
+                                    types.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">4.7</p>
+                                        <p class="text-dark">(579)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold">$32.00</p>
+                            </div>
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dwe8ab803c/nextgen/skin-care/face-serums-and-oils/midnight-recovery/midnight-recovery-concentrate/kiehls-face-serum-midnight-recovery-concentrate-30ml-000-3605975053920-front.jpg?sw=930&sfrm=png&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#"> Midnight Recovery Concentrate Face Oil </a>
+                                <p class="text-wrap mt-5 font-italic h6"> A moisturizing face oil that visibly restores
+                                    skin while you sleep.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">4.7</p>
+                                        <p class="text-dark">(821)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold">$52.00</p>
+                            </div>
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw2c7dfec4/nextgen/skin-care/face-serums-and-oils/dermatologist-solutions/powerful-strength-line-reducing-concentrate/kiehls-face-serum-powerful-strength-line-reducing-concentrate-50ml-000-3605971536090-front.jpg?sw=930&sfrm=png&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#"> Powerful-Strength Vitamin C Serum </a>
+                                <p class="text-wrap mt-5 font-italic h6"> A potent Vitamin C serum formulated with 12.5%
+                                    Vitamin C and Hyaluronic Acid.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">4.4</p>
+                                        <p class="text-dark">(483)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold">$70.00</p>
+                            </div>
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw2e68b7ca/nextgen/skin-care/face-serums-and-oils/dermatologist-solutions/clearly-corrective-dark-spot-solution/kiehls-face-serum-clearly-corrective-dark-spot-solution-30ml-000-3605970202637-front.jpg?sw=930&sfrm=png&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#"> Clearly Corrective Dark Spot Solution </a>
+                                <p class="text-wrap mt-5 font-italic h6"> A dark spot corrector and brightening serum
+                                    that helps visibly reduce dark spots, hyperpigmentation, and post-acne marks.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">3.5</p>
+                                        <p class="text-dark">(458)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold">$56.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dwcd0bedf3/images/5_SMCC/595-smcc-50ml-whip.jpg?sw=930&sfrm=jpg&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#">Super Multi-Corrective Anti-Aging Face and Neck
+                                    Cream</a>
+                                <p class="text-wrap mt-5 font-italic h6"> A supercharged anti-aging face and neck cream
+                                    clinically proven to reduce wrinkles, even skin tone, and smooth skin’s texture.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">2.5</p>
+                                        <p class="text-dark">(112)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold text-center">$68.00</p>
+                            </div>
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw9b2643c7/nextgen/skin-care/face-toners/iris-extract-activating-treatment-essence/kiehls-toner-iris-extract-activating-treatment-essence-200ml-000-3605970775018-front.jpg?sw=930&sfrm=png&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#">Iris Extract Activating Treatment Essence</a>
+                                <p class="text-wrap mt-5 font-italic h6"> An anti-aging facial essence formulated to
+                                    reactivate skin’s youthful appearance.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">4.5</p>
+                                        <p class="text-dark">(40)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold">$46.00</p>
+                            </div>
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw14f46026/nextgen/skin-care/face-toners/ultra-facial/ultra-facial-oil-free-toner/kiehls-toner-ultra-facial-oil-free-toner-000-3605975080872-front.jpg?sw=930&sfrm=png&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#"> Ultra Facial Oil-Free Toner </a>
+                                <p class="text-wrap mt-5 font-italic h6"> A gentle toner for oily skin and normal skin.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">4.6</p>
+                                        <p class="text-dark">(35)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold">$18.00</p>
+                            </div>
+                            <div class="carousel-goods">
+                                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw57f7a6c4/nextgen/men/face-toners/facial-fuel/facial-fuel-energizing-tonic-for-men/kiehls-men-toner-facial-fuel-energizing-tonic-for-men-250ml-000-3605975077063-front.jpg?sw=930&sfrm=png&q=70"
+                                    alt="">
+                                <a class="text-dark h4" href="#"> Facial Fuel Energizing Tonic for Men </a>
+                                <p class="text-wrap mt-5 font-italic h6"> An invigorating facial toner for men’s skin.
+                                </p>
+                                <div class="appraise d-flex justify-content-center">
+                                    <a class="appraise d-flex justify-content-center" href="#">
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star text-danger h5"></i>
+                                        <i class="fas fa-star-half-alt text-danger mr-2 h5"></i>
+                                        <p class="text-dark mr-2">4.1</p>
+                                        <p class="text-dark">(18)</p>
+                                    </a>
+                                </div>
+                                <p class="h4 font-weight-bold">$18.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="container mt-5 holiday d-flex">
+            <div class="img-text-left  order-1 col-12 col-md-5">
+                <a href="#">
+                    <img style="width: 100%;"
+                        src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw3e1eec68/images/homepage/content-tile-images/secondary-block/KU_5457_112120_CYBER_WEEK_5_PIECE_GIFT_GWP_PROMO_SITE_CONTENT_1140x856.jpg?sw=1040&sfrm=jpg&q=70"
+                        alt="">
+                </a>
+            </div>
+            <div class="holiday-p img-text-right text-center align-self-center order-2 col-12 col-md-5 pt-4 pt-md-0">
+                <h1>CYBER WEEK BONUS!</h1>
+                <h5>Receive a FREE 5-piece gift on $135 ($75 Value). Code: BEST
+                    Samples may vary. Excludes sets</h5>
+                <button class="btn btn-dark">SHOP NOW</button>
+            </div>
+        </div>
+
+
+        <div class="container mt-5 holiday-reverse d-flex justify-content-between">
+            <div class="img-text-left order-2 col-12 col-md-5 ">
+                <a href="#">
+                    <img style="width: 100%;"
+                        src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dwd1a9a1c1/images/homepage/content-tile-images/secondary-block/FINAL_5434_112120_CYBER_WEEK_25_OFF_HP_CONTENT_1140x856.jpg?sw=1040&sfrm=jpg&q=70"
+                        alt="">
+                </a>
+            </div>
+            <div class="img-text-right text-center align-self-center order-1 col-12 col-md-5 pt-4 pt-md-0">
+                <h1>KIEHL’S DAILY DEALS!</h1>
+                <h5>Discover our best Cyber Week offers all week long!</h5>
+                <button class="btn btn-dark">SHOP NOW</button>
+            </div>
+        </div>
+
+        <div class="container mt-5 text-center d-flex">
+            <div class="holiday mr-4">
+                <div class="holiday-top">
+                    <a href="#">
+                        <img class="w-100"
+                            src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw6f93fe5c/images/homepage/article-tiles/Kiehls_Holiday_7.jpg?sw=740&sh=452&sm=cut&sfrm=jpg&q=70"
+                            alt="">
+                    </a>
+                </div>
+                <div class="holiday-middle mt-5 font-weight-bold">
+                    <a class="text-dark text-decoration-none" href="#">GIFT GUIDE</a>
+                </div>
+                <div class="holiday-bottom mt-3">
+                    <a class="text-dark h5 font-weight-normal text-decoration-none" href="#"> Kiehl's Black Friday Deals
+                    </a>
+                </div>
+            </div>
+            <div class="holiday mr-4">
+                <div class="holiday-top">
+                    <a href="#">
+                        <img class="w-100"
+                            src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw0c056859/images/homepage/article-tiles/october2020/Kiehls_Holiday_1.jpg?sw=740&sh=452&sm=cut&sfrm=jpg&q=70"
+                            alt="">
+                    </a>
+                </div>
+                <div class="holiday-middle mt-5 font-weight-bold">
+                    <a class="text-dark text-decoration-none" href="#">GIFT GUIDE</a>
+                </div>
+                <div class="holiday-bottom mt-3">
+                    <a class="text-dark h5 font-weight-normal text-decoration-none" href="#"> Kiehl's Cyber Monday Deals
+                    </a>
+                </div>
+            </div>
+            <div class="holiday">
+                <div class="holiday-top">
+                    <a href="#">
+                        <img class="w-100"
+                            src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw82158185/images/homepage/article-tiles/Kiehls_Holiday_4_article.jpg?sw=740&sh=452&sm=cut&sfrm=jpg&q=70"
+                            alt="">
+                    </a>
+                </div>
+                <div class="holiday-middle mt-5 font-weight-bold">
+                    <a class="text-dark text-decoration-none" href="#">GIFT GUIDE</a>
+                </div>
+                <div class="holiday-bottom mt-3">
+                    <a class="text-dark h5 font-weight-normal text-decoration-none" href="#"> The Best
+                        Holiday
+                        Deals
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        
+        <div class="container-brand">
+            <img src="./img/kiehls/bottom.png" alt="">
+        </div>
+    
+
+        <!-- 爆版 -->
+        <div class="bottom-icon bgc d-flex justify-content-center text-light my-1 py-4">
+            <div class="bottom-icon d-flex">
+                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dwc1f95766/images/footer/28-day.png?sw=55"
+                    alt="">
+                <p>28 Day <br> Guarantee</p>
+            </div>
+            <div class="bottom-icon d-flex">
+                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw1902b79c/images/footer/free-delivery.png?sw=55"
+                    alt="">
+                <p>REE SHIPPING <br> FOR ORDERS $50+</p>
+            </div>
+            <div class="bottom-icon d-none d-sm-flex">
+                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw40d66eb9/images/footer/exclusive-offers.png?sw=55"
+                    alt="">
+                <p>EXCLUSIVE <br> OFFERS
+                </p>
+            </div>
+            <div class="bottom-icon d-none d-md-flex">
+                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw41e7146c/images/footer/gifting.png?sw=55"
+                    alt="">
+                <p>GIFTING
+                </p>
+            </div>
+            <div class="bottom-icon d-none d-lg-flex">
+                <img src="https://www.kiehls.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-kiehls_us-Library/default/dw97146af1/images/footer/sample.png?sw=55"
+                    alt="">
+                <p>SAMPLES
+                </p>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row bgc" style="padding: 3% 10%;">
+                <div class="col-8 d-flex justify-content-around">
+                    <div class="list">
+                        <ul>
+                            <div class="tittle">
+                                <li><a href="#">CONTACT US</a></li>
+                            </div>
+                            <div class="content">
+                                <li><a href="#">Email Us</a></li>
+                                <li><a href="#">1-800-543-4572</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <div class="tittle">
+                                <li><a href="#">CUSTOMER CARE</a></li>
+                            </div>
+                            <div class="content">
+                                <li><a href="#">COVID-19 Information</a></li>
+                                <li><a href="#">Find a Store</a></li>
+                                <li><a href="#">Order Status</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Shipping and Returns</a></li>
+                                <li><a href="#">Cookie Settings</a></li>
+                                <li><a href="#">e-Gift Card</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <div class="tittle">
+                                <li><a href="#">ABOUT KIEHL'S</a></li>
+                            </div>
+                            <div class="content">
+                                <li><a href="#">Our History</a></li>
+                                <li><a href="#">Sustainability</a></li>
+                                <li><a href="#">Philanthropy</a></li>
+                                <li><a href="#">Discontinued Products</a></li>
+                                <li><a href="#">Corporate Gift Services</a></li>
+                                <li><a href="#">Kiehl's Rewards</a></li>
+                                <li><a href="#">Healthy Skin Philosophy</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4 text-light d-flex justify-content-right">
+                    <ul>
+                        <li>Email sign up</li>
+                        <li>
+                            <div class="input-group d-flex justify-content-between my-3">
+                                <input type="text " class="form-control w-50" style="border-radius: 0;">
+                                <button class="btn btn-submit btn-outline-dark w-50" type=" button "> SUBMIT
+                                </button>
+                            </div>
+    
+                        </li>
+                        <li><input class="mr-2" type="checkbox"><a class="email-text" href="#">Yes, I want to
+                                receive emails
+                                to keep
+                                up
+                                with the latest
+                                products, trends, and offers
+                                from
+                                Kiehl’s Since 1851 and other L’Oreal brands and programs. By registering, your
+                                information
+                                will
+                                be
+                                collected and used subject to our US privacy policy and terms of use. For US
+                                consumers
+                                only.*</a></li>
+                        <li class="contact-icons">
+                            <a href="#"><img src="./img/icons/1.png" alt=""></a>
+                            <a href="#"><img src="./img/icons/2.png" alt=""></a>
+                            <a href="#"><img src="./img/icons/3.png" alt=""></a>
+                            <a href="#"><img src="./img/icons/4.png" alt=""></a>
+                            <a href="#"><img src="./img/icons/5.png" alt=""></a>
+                            <a href="#"><img src="./img/icons/6.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright w-100" style="background-color: black;">
+            <div class="container">
+                <div class="bgc text-light mt-1 d-flex justify-content-between copyright-t">
+                    <div class="pt-4 copyright-l">
+                        <p style="font-size: x-small;">Copyright © 2020 Kiehls’s Since 1851.<br>
+                            This site is intended for US consumers. Cookies and related <br> technology are used for
+                            advertising.
+                            To
+                            learn more, visit AdChoices <br> and our privacy policy.</p>
+                    </div>
+                    <div class="no-wrap text-light d-flex pt-4 copyright-r" style="white-space:nowrap;">
+                        <a class="text-light" href="#">Privacy
+                            Policy</a>
+                        <a class="text-light" href="#">User Content Permission</a>
+                        <a class="text-light" href="#">Terms & Conditions</a>
+                        <a class="text-light" href="#">Site Map</a>
+                        <a class="text-light border-0" href="#">Skincare.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <button class="btn-fixed fixed" style="border: 0px; width: 50px;">
+        <a href="#"><img style="width: 100%; object-fit: cover; " src="./img/icons/top.png" alt=""></a>
+    </button>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
